@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    color: #193969;
+  }
+  
+  /* Body element*/
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+  }
+  
+  /*Header size and color*/
+  header {
+    width: 100%;
+    height: 10%;
+    background-color: #31343d;
+    display: flex;
+  }
+  
+  .imgText {
+    position: absolute;
+    margin-top: 2%;
+    align-content: center;
+    color: white;
+    background-color: rgb(228, 207, 207);
+    font-family: fantasy, "Times New Roman", Times, serif;
+    font-size: large;
+  }
+  
+  /* allow my header section to grow and shrink with the browser*/
+  header section {
+    flex: 2 0;
+  }
+  
+  /*this is my header section h1 content*/
+  header section h1 {
+    background-color: #3f23e1;
+    color: #31343d;
+    text-align: left;
+    font-size: 3.5em;
+    padding: 5px;
+    text-indent: 15%;
+  }
+  
+
+  header nav {
+    flex: 6 0;
+    align-self: Center;
+  }
+  
+  .links {
+    float: right;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  
+  .links li {
+    flex: 1 0 10%;
+    height: 100%;
+  }
+  
+  .links li a {
+    color:#3f23e1 ;
+    font-size: 1.9em;
+  }
+  
+  .links li a:hover {
+    opacity: 1;
+    transition-duration: 1s;
+    color: purple;
+  }
+  /*End of header*/
+  
+  /*this is my banner img of the seattle skyline.*/
+  
+ 
+  
+  main {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #a8a8ae;
+    color: #31343d;
+    padding-top: 15px;
+    /* padding-left: 0px; */
+  }
+  
+  /* this is the font size of my sections about me, work and contact me*/
+  main h1 {
+    font-size: 3em;
+  }
+  
+  /* here i am giving my about me content a width of 100% to fill the screen horizontally
+  and the height is 15% with bottom padding to make room for my work content.*/
+  .aboutMe {
+    width: 100%;
+    height: 15%;
+    padding-bottom: 1.5%;
+  }
+  
+  /* this is the area for content in my work section. the height here is 70% because i currently
+  only have one project and want to make sure it is big enough to make the page look even. */
+  .work {
+    width: 100%;
+    height: 70%;
+    padding-bottom: 1.5%;
+  }
+  
+  /* this is my contact me area that has a smaller height because there isnt much content 
+  going in this place just another set of listed links */
+  .contactMe {
+    width: 100%;
+    height: 10%;
+  }
+  
+  /* this breaks down my main content information and is sey to fill the main body container */
+  .main-body-info {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* section title is the h1 elements and this gives it the shrink and grow properties
+  and it adds a line after the title. */
+  .section-title {
+    flex: 1 0;
+    border-right: solid;
+    text-align: right;
+    padding-right: 1%;
+  }
+  
+  /* This is where my about me, work and contact content is. i have it set to 3% padding
+  ontop 1% for the right and left and 5% for the bottom.  */
+  .section-info {
+    flex: 4 0;
+    padding: 3% 1% 1% 5%;
+    font-size: 2em;
+  }
+  
+  /*Work section*/
+  
+  /* this is where my horiseon projet is and i adjusted the width and height so that it fills the section.
+  once i am able to add more projects i can resize this and allow more projects to be seen. */
+  .work-project {
+    display: flex;
+    max-width: 920px;
+  }
+  
+  /* this gives the project image a solid border and is the actual height and width of my project image link*/
+  .background-image img {
+    height: 200px;
+    width: 300px;
+  }
+  
+  #mainWorkImg {
+    height: 300px;
+    width: 920px;
+  }
+  
+  
+  #javascript {
+    background-color: rgb(241, 241, 149);
+  }
+  
+  .myButton {
+      box-shadow: 0px 0px 23px 1px #9fb4f2;
+      background:linear-gradient(to bottom, #7892c2 5%, #877e8d 100%);
+      background-color:#7892c2;
+      border-radius:9px;
+      cursor: pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:12px;
+      padding:6px 23px;
+      text-decoration:none;
+      text-shadow:0px 2px 15px #283966;
+  }
+  .myButton:hover {
+      background:linear-gradient(to bottom, #eae6ed 5%, #7892c2 100%);
+      background-color:#402785;
+  }
+  .footer-contact {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: #102e8a;
+    margin: 0%;
+  }
+  
+  /* this aligns the links so they are in the center of the footer. I picked 1.4em for the font
+  size so its not too big or small. I also removed the bullet points.*/
+  .footer-links {
+    align-self: center;
+    font-size: 1.4em;
+    list-style-type: none;
+    color: #31343d;
+  }
+  
+
+  
+
+
+    
+  
+   
+  
+  

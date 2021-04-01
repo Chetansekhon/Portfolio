@@ -3,47 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <body>
-        <div class="header">
-            <h1>Chetan Sekhon</h1>
-            <div>
-                <ul>
-                    <li>
-                        <a href="About me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="Work">Work</a>
-                    </li>
-                    <li>
-                        <a href="Contact Me">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="Resume">Resume</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <header>
+        <section>
+          <h1>Chetan Sekhon</h1>
+        </section>
+        <nav>
+          <ul class="links">
+            <li>
+              <a href="#aboutme">About Me</a>
+            </li>
+            <li>
+              <a href="#work">Work</a>
+            </li>
+            <li>
+              <a href="#contactme">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="aboutme" id="aboutme">
+          <section class="main-body-info">
+            <h1 class="section-title">
+              About
+              <br />
+              Me
+              <br />
+            </h1>
+            <section class="section-info">
+              <p>
+               My name is Chetan Sekhon and I'm currently enrolled in University of Washington Full Stack Development Bootcamp. I was introduced to coding in my teenage
+               years when I use to alter and change the layout of social media page and was amazed at how much i could do just by tweaking some code. 15 years or so later
+               here I am begin my journey into actually becoming a developer.
+              </p>
+            </section>
+          </section>
+        </section>
+        <section class="work" id="work">
+          <section class="main-body-info">
+            <h1 class="section-title">Work</h1>
+  
+            <section class="section-info">
+              <section class="work-project">
+                <section class="background-image">
 
-    <h2 class="title">About Me</h2>
-    <div class="content">
-        My name is Chetan and my web development journey began in 2020 by attaending University of Washington Coding Bootcamp.
-    </div>
+                  <img src="images/horizon.JPG" alt="horiseonImage" id="mainWorkImg" />
+                  
+                  <a href="https://chetansekhon.github.io/Refactor-SEO/" target="_blank">
+                  <button class="myButton">Link to the live page</button> </a>
+                  
 
-    <h2 class="title">Work</h2>
-    <div class="content">
-        
-    </div>
-
-    <h2 class="title">Contact Me</h2>
-    <div class="content">
-       
-    </div>
-
-
-</body>
-
-</html>
+              </section>
+            </section>
+          </section>
+        </section>
+  
+        <!--Conatact me-->
+        <footer class="contactme" id="contactme">
+          <section class="main-body-info">
+  
+            <h1 class="section-title">Contact<br />Me</h1>
+  
+            <section class="section-info">
+              <ul class="footer-contact">
+                <li class="footer-links">
+                  <a href="Phone">4253191721</a>
+                </li>
+                <li class="footer-links">
+                  <a href="Chetansekhon@gmail.com">chetansekhon@gmail.com</a>
+                </li>
+                <li class="footer-links">
+                  <a href="https://github.com/Chetansekhon" target="_blank">Github</a>
+                </li>
+                <li class="footer-links">
+                  <a href="https://www.linkedin.com/in/chetan-sekhon-a996571b8/" target="_blank">Linkedin</a>
+                </li>
+              </ul>
+            </section>
+          </section>
+        </footer>
+      </main>
+    </body>
+  </html>
+  
